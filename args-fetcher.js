@@ -1,4 +1,4 @@
-define(['argspec', 'clonejs'], function(argspec, clone) {
+define(['argspecjs', 'clonejs'], function(argspec, clone) {
 
 	var argspec = clone(argspec);
 	var originalHandler = argspec.getArgs;
