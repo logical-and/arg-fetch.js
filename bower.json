@@ -1,6 +1,6 @@
 {
-	"name": "arg-fetch.js",
-	"main": "arg-fetch.js",
+	"name": "args-fetcher.js",
+	"main": "args-fetcher.js",
 	"version": "0.1.0",
 	"homepage": "https://github.com/logical-and/arg-fetch.js",
 	"authors": [
@@ -9,7 +9,9 @@
 	"description": "argspecjs, but with sugar",
 	"keywords": [
 		"arguments",
-		"fetch"
+		"fetch",
+		"argspec",
+		"argspec.js"
 	],
 	"dependencies": {
 		"clone": "*",
