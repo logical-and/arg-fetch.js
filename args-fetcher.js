@@ -1,5 +1,8 @@
 define(['argspecjs', 'clonejs'], function(argspec, clone) {
 
+	if (!argspec) argspec = window.argspec;
+	if (!argspec) throw new Error('Argspec is not defined!');
+
 	var argspec = clone(argspec);
 	var originalHandler = argspec.getArgs;
 
